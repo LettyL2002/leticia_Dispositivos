@@ -1,0 +1,13 @@
+{
+  "name": "sistema_biblioteca",
+  "module": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startb": "bun index.js",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
